@@ -1,12 +1,12 @@
 #title {
 	text-align: center;
-	font-size: 36px;
-	font-family: sans-serif;
+	vertical-align: 50px;
+	font-size: 56px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	vertical-align: middle;
-	
-	/*background: url("http://www.casaandcompany.com/wp-content/uploads/2015/11/how-to-choose-the-right-kitchen-contractor-1.jpg") no-repeat center fixed;
-	background-size: cover;*/
-
+	color: #993300;
+}
+#head{
 
 	border-width: 4px;
 	border-style: solid;
@@ -15,9 +15,84 @@
 	margin-right:-9px;
 	margin-left:-9px;
 
-	height: 100px;
+	height: 200px;
+
+	background-image: url("construction.jpg");
 }
 
-#test{
-	color: black;
+#header{
+	color: #993300;
+	text-decoration: underline;
+	font-size:32px;
+	margin-left: 128px;
+	margin-right: 64px;
+}
+
+#name{
+	font-size: 24px;
+	margin-left: 128px;
+	margin-right:64px;
+}
+
+#body{
+	padding-left: 10px;
+}
+
+#base{
+	background-color: #f0f0f0;
+	height:75px;
+	margin-left:-9px;
+	margin-right:-9px;
+
+}
+
+#facebook{
+	background-image:url("facebook.jpg");
+	align-content: middle;
+}
+
+#footer{
+	height:150px;
+	margin-left:-9px;
+	margin-right:-9px;
+	background-color: #333366;
+}
+
+#foot01{
+	float:right;
+	margin-right:10px;
+}
+
+ul#menu {
+	float: right;
+    padding: 0;
+    margin-top:-11px;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: grey;
+}
+
+#list{
+	margin-left:140px;
+	font-size:24px;
+	padding:10px;
 }
